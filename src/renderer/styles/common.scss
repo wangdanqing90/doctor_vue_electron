@@ -1,0 +1,132 @@
+.clearfix {
+
+  &::after {
+    display: block;
+    height: 0;
+    content: ".";
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.small-size {
+  font-size: 12px !important;
+}
+
+.large-size {
+  font-size: 16px !important;
+}
+
+.New-elFrom {
+  padding: 10px;
+  background: #fff;
+
+  .el-form-item {
+    margin-bottom: 0;
+  }
+
+  .el-form-item__label {
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: #7F8FA4;
+
+  }
+
+  .el-form-item__content-btn {
+    text-align: center;
+    padding: 20px 0 10px;
+  }
+
+  .el-select {
+    display: block;
+  }
+
+  .el-date-editor.el-input,
+  .el-input-number--medium {
+    width: 100%;
+  }
+}
+
+.el-radio-group {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.el-radio-group .el-radio-button {
+  flex: 1;
+}
+
+.el-button.purple,
+.el-button.purple:active,
+.el-button.purple:focus,
+.el-button.purple:hover {
+  color: white;
+  background-color: #8c69e7;
+  border: none;
+  box-shadow: 0 2px 12px 0 rgba(240, 240, 240, 0.1)
+}
+
+.el-dialog {
+  border-radius: 10px;
+}
+
+.el-form-item__label {
+  color: $purpleFontColor;
+}
+
+.el-table th>.cell {
+  color: #606266;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.el-message-box .el-message-box__content {
+  color: $purpleFontColor;
+  font-size: 20px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.purpleFontColor {
+  color: $purpleFontColor;
+}
+
+.pinkFontColor {
+  color: $pinkFontColor;
+}
+
+.greenFontColor {
+  color: $greenFontColor;
+}
+
+.yellowFontColor {
+  color: $yellowFontColor;
+}
+
+.pinkBackColor {
+  background-color: $pinkFontColor;
+}
+
+.header {
+ .header-right-div {
+    height: 100%;
+  }
+}

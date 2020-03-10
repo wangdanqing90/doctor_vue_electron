@@ -1,0 +1,11 @@
+build/*.js
+src/renderer/assets/**
+src/renderer/api/**
+src/renderer/components/**
+src/renderer/*.js
+src/main/**
+dist/**
+src/renderer/views/login/**
+src/renderer/views/detail/index.vue
+src/renderer/views/training/**
+
